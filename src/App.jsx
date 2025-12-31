@@ -2,8 +2,14 @@
 // import Home from "./pages/Home";
 // import "./App.css";
 
+import TicketPurchase from "./pages/TicketPurchase";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <TicketPurchase />
+    </>
+  );
 }
 
 export default App;
