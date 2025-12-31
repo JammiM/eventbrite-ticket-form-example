@@ -33,9 +33,9 @@ function TicketPurchase() {
   return (
     <div>
       <section>
-        <p>{eventName}</p>
-        <p>{cleanedEventDate}</p>
-        <h3>General Admission {ticketQuantity}</h3>
+        <h1>{eventName}</h1>
+        <h2>{cleanedEventDate}</h2>
+        <p>General Admission {ticketQuantity}</p>
         <p>Total : {correctedPrice}</p>
 
         <p>Sales end on {saleEndDate}</p>

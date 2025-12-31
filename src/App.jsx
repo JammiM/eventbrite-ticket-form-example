@@ -9,7 +9,9 @@ import "./utils/axeTestingHandler";
 function App() {
   return (
     <>
-      <TicketPurchase />
+      <main>
+        <TicketPurchase />
+      </main>
     </>
   );
 }
