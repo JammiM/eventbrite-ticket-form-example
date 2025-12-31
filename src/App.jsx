@@ -4,6 +4,8 @@
 
 import TicketPurchase from "./pages/TicketPurchase";
 
+import "./utils/axeTestingHandler";
+
 function App() {
   return (
     <>
